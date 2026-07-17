@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="en" class="Dark" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LMS | </title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- google fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body class="overflow-x-hidden">
+    
+    <!-- start navbar -->
+
+<nav class="bg-gradient-to-tl  from-slate-400 to-cyan-100  border-gray-200 dark:bg-gray-700 drop-shadow-sm sticky top-0 left-0 right-0 z-50 w-full">
+  <div class="max-w-screen-xl mx-auto flex flex-wrap items-center justify-between mx-auto p-4 gap-4">
+  <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+      <img src="assets/images/تنزيل (2).png" class="h-20" alt="Logo" />
+      <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">أكاديمية المختبر</span>
+  </a>
+  <div class="flex items-center md:order-2 space-x-1 md:space-x-0 rtl:space-x-reverse">
+      <button type="button" data-dropdown-toggle="language-dropdown-menu" class="inline-flex items-center font-medium justify-center px-4 py-2 text-sm text-gray-900 dark:text-white rounded-lg cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-700 dark:hover:text-white">
+        <svg class="w-5 h-5 rounded-full me-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 3900 3900"><path fill="#b22234" d="M0 0h7410v3900H0z"/><path d="M0 450h7410m0 600H0m0 600h7410m0 600H0m0 600h7410m0 600H0" stroke="#fff" stroke-width="300"/><path fill="#3c3b6e" d="M0 0h2964v2100H0z"/><g fill="#fff"><g id="d"><g id="c"><g id="e"><g id="b"><path id="a" d="M247 90l70.534 217.082-184.66-134.164h228.253L176.466 307.082z"/><use xlink:href="#a" y="420"/><use xlink:href="#a" y="840"/><use xlink:href="#a" y="1260"/></g><use xlink:href="#a" y="1680"/></g><use xlink:href="#b" x="247" y="210"/></g><use xlink:href="#c" x="494"/></g><use xlink:href="#d" x="988"/><use xlink:href="#c" x="1976"/><use xlink:href="#e" x="2470"/></g></svg>
+        English (US)
+      </button>
+      <!-- Dropdown -->
+      <div class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded-lg shadow-sm dark:bg-gray-700" id="language-dropdown-menu">
+        <ul class="py-2 font-medium" role="none">
+          <li>
+            <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">
+              <div class="inline-flex items-center">
+                <svg aria-hidden="true" class="h-3.5 w-3.5 rounded-full me-2" xmlns="http://www.w3.org/2000/svg" id="flag-icon-css-us" viewBox="0 0 512 512"><g fill-rule="evenodd"><g stroke-width="1pt"><path fill="#bd3d44" d="M0 0h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0z" transform="scale(3.9385)"/><path fill="#fff" d="M0 10h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0zm0 20h247v10H0z" transform="scale(3.9385)"/></g><path fill="#192f5d" d="M0 0h98.8v70H0z" transform="scale(3.9385)"/><path fill="#fff" d="M8.2 3l1 2.8H12L9.7 7.5l.9 2.7-2.4-1.7L6 10.2l.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8H45l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.4 1.7 1 2.7L74 8.5l-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9L92 7.5l1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm-74.1 7l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7H65zm16.4 0l1 2.8H86l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm-74 7l.8 2.8h3l-2.4 1.7.9 2.7-2.4-1.7L6 24.2l.9-2.7-2.4-1.7h3zm16.4 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8H45l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9L92 21.5l1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm-74.1 7l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7H65zm16.4 0l1 2.8H86l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm-74 7l.8 2.8h3l-2.4 1.7.9 2.7-2.4-1.7L6 38.2l.9-2.7-2.4-1.7h3zm16.4 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8H45l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9L92 35.5l1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm-74.1 7l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7H65zm16.4 0l1 2.8H86l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm-74 7l.8 2.8h3l-2.4 1.7.9 2.7-2.4-1.7L6 52.2l.9-2.7-2.4-1.7h3zm16.4 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8H45l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9L92 49.5l1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm-74.1 7l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7H65zm16.4 0l1 2.8H86l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm-74 7l.8 2.8h3l-2.4 1.7.9 2.7-2.4-1.7L6 66.2l.9-2.7-2.4-1.7h3zm16.4 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8H45l-2.4 1.7 1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9zm16.4 0l1 2.8h2.8l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h3zm16.5 0l.9 2.8h2.9l-2.3 1.7.9 2.7-2.4-1.7-2.3 1.7.9-2.7-2.4-1.7h2.9zm16.5 0l.9 2.8h2.9L92 63.5l1 2.7-2.4-1.7-2.4 1.7 1-2.7-2.4-1.7h2.9z" transform="scale(3.9385)"/></g></svg>              
+                English (US)
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">
+              <div class="inline-flex items-center">
+                <svg class="h-3.5 w-3.5 rounded-full me-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" id="flag-icon-css-de" viewBox="0 0 512 512"><path fill="#ffce00" d="M0 341.3h512V512H0z"/><path d="M0 0h512v170.7H0z"/><path fill="#d00" d="M0 170.7h512v170.6H0z"/></svg>
+                Deutsch
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">
+              <div class="inline-flex items-center">
+                <svg class="h-3.5 w-3.5 rounded-full me-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" id="flag-icon-css-it" viewBox="0 0 512 512"><g fill-rule="evenodd" stroke-width="1pt"><path fill="#fff" d="M0 0h512v512H0z"/><path fill="#009246" d="M0 0h170.7v512H0z"/><path fill="#ce2b37" d="M341.3 0H512v512H341.3z"/></g></svg>              
+                Italiano
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-600 dark:hover:text-white" role="menuitem">
+              <div class="inline-flex items-center">
+                <svg class="h-3.5 w-3.5 rounded-full me-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="flag-icon-css-cn" viewBox="0 0 512 512"><defs><path id="a" fill="#ffde00" d="M1-.3L-.7.8 0-1 .6.8-1-.3z"/></defs><path fill="#de2910" d="M0 0h512v512H0z"/><use width="30" height="20" transform="matrix(76.8 0 0 76.8 128 128)" xlink:href="#a"/><use width="30" height="20" transform="rotate(-121 142.6 -47) scale(25.5827)" xlink:href="#a"/><use width="30" height="20" transform="rotate(-98.1 198 -82) scale(25.6)" xlink:href="#a"/><use width="30" height="20" transform="rotate(-74 272.4 -114) scale(25.6137)" xlink:href="#a"/><use width="30" height="20" transform="matrix(16 -19.968 19.968 16 256 230.4)" xlink:href="#a"/></svg>
+                中文 (繁體)
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <button data-collapse-toggle="navbar-language" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-language" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+        </svg>
+    </button>
+  </div>
+  <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-language">
+    <ul class="flex  md:items-center flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg  md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0   dark:border-gray-700">
+      <li>
+        <a href="index.html" class="block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500" aria-current="page">الرئيسية</a>
+      </li>
+      <li>
+        <a href="#" class="block py-2 px-3 md:p-0 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">المسارات التدريبية</a>
+      </li>
+      <li>
+        <a href="#" class="block py-2 px-3 md:p-0 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">عن الاكاديمية</a>
+      </li>
+      <li>
+        <a href="#" class="block py-2 px-3 md:p-0 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">المدونة العلمية</a>
+      </li>
+      <li>
+        <a href="#" class="block py-2 px-3 md:p-0 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">اتصل بنا</a>
+      </li>
+      <li class="mr-2">
+<button id="theme-toggle" type="button" class="md:text-gray-400 md:dark:text-gray-100 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none  rounded-lg text-sm p-2.5">
+    <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg>
+    <svg id="theme-toggle-light-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+</button>
+      </li>
+      
+     
+    </ul>
+  </div>
+  </div>
+</nav>
+
+
+
+    <!-- end navbar -->
+
+    
+        <!-- start course -->
+        <section class="py-[50px] bg-sky-100 dark:bg-slate-600">
+            <div class="page-header flex max-w-screen-xl mx-auto justify-between ">
+                <div class="grow flex flex-col justify-center ">
+                    <h1 class="text-4xl text-center md:text-right font-blod text-sky-700 mb-5 dark:text-gray-200">دورة سحب العينات الطبية المتقدمة</h1>
+                    <p class="mb-5 font-bold text-center md:text-right dark:text-gray-200"> المدرب:  <span class=" ">د.حسام اليوسف</span></p>
+                    <div class="flex justify-centent md:justify-start gap-3 dark:text-gray-200">
+                        <div>
+                            <i class="fa-regular fa-square-check"></i>
+                            نيسان / 2025
+                        </div>
+                        <div>
+                            <i class="fas fa-alarm-clock"></i>
+                            4 أسابيع
+                        </div>
+                        <div>
+                            <i class="fas fa-user-check"></i>
+                            حضور بالكامل داخل المختبر
+                        </div>
+                    </div>
+                </div> 
+                <!-- <div class="w-[25%]">
+                    <img class="w-full rounded-t-[10px]"  src="assets/images/تحاليل طبية.jpg"  alt="">
+                </div> -->
+            </div>
+        </section>
+        <!-- end course -->
+          
+      <!-- start content -->
+
+
+        <section class="main-content">
+
+            <div class=" ineer-content flex flex-col-reverse md:flex-row justify-between max-w-screen-xl mx-auto gap-5">
+                <div class="content m-3 md:m-0 grow">
+                    
+
+<div class=" c-tabs text-sm font-medium text-center text-body border-b border-default">
+    <ul class="flex flex-wrap -mb-px" data-tabs-toggle="#tabcontent">
+        <li class="me-2">
+            <a href="#"  data-tabs-target="#Overview" role="tab" aria-controls="Overview"  aria-selected="true" class="inline-block p-4 border-b border-transparent rounded-t-base hover:text-fg-brand hover:border-brand">نظرة عامة</a>
+        </li>
+        <li class="me-2">
+            <a href="#" data-tabs-target="#Syllabus" role="tab" aria-controls="Overview"  aria-selected="false"  class="inline-block p-4 text-fg-brand border-b border-brand rounded-t-base active" aria-current="page">المحتوى الدراسي </a>
+        </li>
+        <li class="me-2">
+            <a href="#"  data-tabs-target="#Instructor" role="tab" aria-controls="Overview"  aria-selected="false" class="inline-block p-4 border-b border-transparent rounded-t-base hover:text-fg-brand hover:border-brand">المدرب</a>
+        </li>
+    
+    </ul>
+</div>
+
+
+        <div id="tabcontent">
+            <div id="Overview" class="mt-5">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-2 bg-gray-100 p-5 rounded-[10px]">
+                    <div>
+                        <ul class="flex flex-col gap-4">
+                            <li>
+                                <i class="fa-solid fa-flask-vial text-sky-600"></i>
+                                <span>تقنيات مؤتمتة بالكامل</span>
+                            </li>
+                            <li >
+                                <i class="fa-solid fa-stopwatch-20 text-sky-600"></i>
+                                <span>وقت قياسي</span>
+                            </li>
+                            <li >
+                                <i class="fa-solid fa-vial-circle-check text-sky-600"></i>
+                                <span>نطبق معايير الجودة العالمية</span>
+                            </li>
+                            <li >
+                                <i class="fa-solid fa-user-shield text-sky-600"></i>
+                                <span>سرية تامة للبيانات</span>
+                            </li>
+                            <li >
+                                <i class="fa-solid fa-bolt text-sky-600"></i>
+                                <span>التحاليل المستعجلة</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="flex flex-col gap-4">
+                            <li>
+                                <i class="fa-solid fa-house-chimney-medical text-sky-600"></i>
+                                <span>سحب عينات منزلي</span>
+                            </li>
+                            <li >
+                                <i class="fa-solid fa-dna text-sky-600"></i>
+                                <span>وحدة الجينات والـ PCR</span>
+                            </li>
+                            <li >
+                                <i class="fa-solid fa-qrcode text-sky-600"></i>
+                                <span>نظام التتبع بالباركود</span>
+                            </li>
+                            <li >
+                                <i class="fa-solid fa-id-card-clip text-sky-600"></i>
+                                <span>طاقم سحب عينات خبير</span>
+                            </li>
+                            <li >
+                                <i class="fa-solid fa-whatsapp text-sky-600"></i>
+                                <span>إرسال النتائج تلقائياً</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                    <p class="mt-5 leading-9">
+                        نلتزم في مختبرنا للتحاليل الطبية بتقديم أعلى مستويات الدقة والموثوقية في الرعاية التشخيصية. من خلال دمج الأجهزة الرقمية المؤتمتة بالكامل مع خبرات طاقمنا الطبي المتخصص، نضمن لك تجربة صحية مريحة وسريعة بدءاً من سحب العينة وحتى استلام التقارير الشاملة، لنكون الشريك الموثوق والآمن في رحلتك الصحية.
+                    </p>
+                    <img  class="mt-5"  src="assets/images/تحليل طبي.jpg" alt="">
+                    <p class="mt-5 leading-9">نحن في مختبرنا الطبي نضع صحتك وراحتك في مقدمة أولوياتنا، حيث نعمل بشغف لنقدم لك أدق النتائج التشخيصية في وقت قياسي وبأعلى معايير الجودة العالمية. بالاعتماد على التكنولوجيا الرقمية المتطورة ونظام الأتمتة الكاملة، إلى جانب فريقنا الطبي الخبير والخدمات المنزلية المتميزة، نوفر لك ولعائلتك تجربة مخبرية متكاملة وآمنة تمنحك الطمأنينة والثقة التي تستحقها.</p>
+                    <img src="assets/images/تحليل6.jpg" alt="">
+                    <p class="mt-5 leading-9">نجمع في مختبرنا الطبي بين دقة التقنيات المؤتمتة وخبرة الطاقم المتخصص، لنقدم لك ولعائلتك نتائج تشخيصية سريعة وموثوقة وفق أعلى معايير الجودة العالمية</p>
+            </div>
+
+            <div id="Syllabus">
+                  <div class="faq-info">
+ 
+          
+<div class="mt-5"  id="accordion-color" data-accordion="collapse" data-active-classes="bg-blue-100 dark:bg-gray-800 text-blue-600 dark:text-white">
+  <h2 id="accordion-color-heading-1">
+    <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-300 mb-1 rounded-t-xl   dark:border-gray-700 dark:text-gray-200 bg-gray-200 dark:bg-slate-600   hover:bg-blue-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-color-body-1" aria-expanded="true" aria-controls="accordion-color-body-1">
+      <span>علم الدم وبنك الدم</span>
+      <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+      </svg>
+    </button>
+  </h2>
+  <div id="accordion-color-body-1" class="hidden bg-gray-50 mb-1 border-b-1 border-gray-200 dark:border-none  " aria-labelledby="accordion-color-heading-1">
+    <div class="flex justify-between p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+    <div>
+        <i class="fa-solid fa-droplet text-sky-600 ml-2.5"></i>
+        <a href="" class="dark:text-gray-200">خلايا الدم CBC</a>
+    </div>
+
+    <div>
+        <span class="dark:text-gray-200">50 دقيقة</span>
+        <a href="" class="fa-solid fa-eye text-sky-600 mr-2.5"></a>
+    </div>
+    
+    </div>
+    <div class="flex justify-between p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+    <div>
+        <i class="fa-solid fa-droplet text-sky-600 ml-2.5"></i>
+        <a href="" class="dark:text-gray-200">فقر الدم Anemia</a>
+    </div>
+
+    <div>
+        <span class="dark:text-gray-200">60 دقيقة</span>
+        <a href="" class="fa-solid fa-eye text-sky-600 mr-2.5"></a>
+    </div>
+    
+    </div>
+  
+    <div class="flex justify-between p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+    <div>
+        <i class="fa-solid fa-droplet text-sky-600 ml-2.5"></i>
+        <a href="" class="dark:text-gray-200">فصائل الدم</a>
+    </div>
+
+    <div>
+        <span class="dark:text-gray-200">70 دقيقة</span>
+        <a href="" class="fa-solid fa-eye text-sky-600 mr-2.5"></a>
+    </div>
+    
+    </div>
+    <div class="flex justify-between p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+    <div>
+        <i class="fa-solid fa-droplet text-sky-600 ml-2.5"></i>
+        <a href="" class="dark:text-gray-200">مطابقة الدم</a>
+    </div>
+
+    <div>
+        <span class="dark:text-gray-200">60 دقيقة</span>
+        <a href="" class="fa-solid fa-eye text-sky-600 mr-2.5"></a>
+    </div>
+    
+    </div>
+  </div>
+
+
+  <h2 id="accordion-color-heading-2">
+    <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-300 mb-1 rounded-t-xl   dark:border-gray-700 dark:text-gray-200 bg-gray-200 dark:bg-slate-600   hover:bg-blue-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-color-body-2" aria-expanded="true" aria-controls="accordion-color-body-2">
+      <span>الكيمياء السريرية والهرمونات</span>
+      <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+      </svg>
+    </button>
+  </h2>
+  <div id="accordion-color-body-2" class="hidden bg-gray-50 mb-1 border-b-1 border-gray-200 dark:border-none  " aria-labelledby="accordion-color-heading-2">
+    <div class="flex justify-between p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+    <div>
+        <i class="fa-solid fa-flask-vial text-sky-600 ml-2.5"></i>
+        <a href="" class="dark:text-gray-200">وظائف الكلى</a>
+    </div>
+
+    <div>
+        <span class="dark:text-gray-200">40 دقيقة</span>
+        <a href="" class="fa-solid fa-eye text-sky-600 mr-2.5"></a>
+    </div>
+    
+    </div>
+    <div class="flex justify-between p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+    <div>
+        <i class="fa-solid fa-flask-vial text-sky-600 ml-2.5"></i>
+        <a href="" class="dark:text-gray-200">أنزيمات الكبد</a>
+    </div>
+
+    <div>
+        <span class="dark:text-gray-200">60 دقيقة</span>
+        <a href="" class="fa-solid fa-eye text-sky-600 mr-2.5"></a>
+    </div>
+    
+    </div>
+  
+    <div class="flex justify-between p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+    <div>
+        <i class="fa-solid fa-flask-vial text-sky-600 ml-2.5"></i>
+        <a href="" class="dark:text-gray-200">دهون الدم</a>
+    </div>
+
+    <div>
+        <span class="dark:text-gray-200">30 دقيقة</span>
+        <a href="" class="fa-solid fa-eye text-sky-600 mr-2.5"></a>
+    </div>
+    
+    </div>
+    <div class="flex justify-between p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+    <div>
+        <i class="fa-solid fa-flask-vial text-sky-600 ml-2.5"></i>
+        <a href="" class="dark:text-gray-200">الغدة الدرقية</a>
+    </div>
+
+    <div>
+        <span class="dark:text-gray-200">60 دقيقة</span>
+        <a href="" class="fa-solid fa-eye text-sky-600 mr-2.5"></a>
+    </div>
+    
+    </div>
+  </div>
+
+
+  <h2 id="accordion-color-heading-3">
+    <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-300 mb-1 rounded-t-xl   dark:border-gray-700 dark:text-gray-200 bg-gray-200 dark:bg-slate-600   hover:bg-blue-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-color-body-3" aria-expanded="true" aria-controls="accordion-color-body-3">
+      <span>علم الأحياء الدقيقة والطفيليات</span>
+      <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+      </svg>
+    </button>
+  </h2>
+  <div id="accordion-color-body-3" class="hidden bg-gray-50 mb-1 border-b-1 border-gray-200 dark:border-none  " aria-labelledby="accordion-color-heading-1">
+    <div class="flex justify-between p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+    <div>
+        <i class="fa-solid fa-bacteria text-sky-600 ml-2.5"></i>
+        <a href="" class="dark:text-gray-200">صبغة غرام</a>
+    </div>
+
+    <div>
+        <span class="dark:text-gray-200">35 دقيقة</span>
+        <a href="" class="fa-solid fa-eye text-sky-600 mr-2.5"></a>
+    </div>
+    
+    </div>
+    <div class="flex justify-between p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+    <div>
+        <i class="fa-solid fa-bacteria text-sky-600 ml-2.5"></i>
+        <a href="" class="dark:text-gray-200">المزارع البكتيرية</a>
+    </div>
+
+    <div>
+        <span class="dark:text-gray-200">45 دقيقة</span>
+        <a href="" class="fa-solid fa-eye text-sky-600 mr-2.5"></a>
+    </div>
+    
+    </div>
+  
+    <div class="flex justify-between p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+    <div>
+        <i class="fa-solid fa-bacteria text-sky-600 ml-2.5"></i>
+        <a href="" class="dark:text-gray-200">المضادات الحيوية</a>
+    </div>
+
+    <div>
+        <span class="dark:text-gray-200">60 دقيقة</span>
+        <a href="" class="fa-solid fa-eye text-sky-600 mr-2.5"></a>
+    </div>
+    
+    </div>
+    <div class="flex justify-between p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+    <div>
+        <i class="fa-solid fa-bacteria text-sky-600 ml-2.5"></i>
+        <a href="" class="dark:text-gray-200">فحص الطفيليات</a>
+    </div>
+
+    <div>
+        <span class="dark:text-gray-200">50 دقيقة</span>
+        <a href="" class="fa-solid fa-eye text-sky-600 mr-2.5"></a>
+    </div>
+    
+    </div>
+  </div>
+
+  <h2 id="accordion-color-heading-4">
+    <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-300 mb-1 rounded-t-xl   dark:border-gray-700 dark:text-gray-200 bg-gray-200 dark:bg-slate-600   hover:bg-blue-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-color-body-4" aria-expanded="true" aria-controls="accordion-color-body-4">
+      <span>علم الأنسجة والخلايا المرضية</span>
+      <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+      </svg>
+    </button>
+  </h2>
+  <div id="accordion-color-body-4" class="hidden bg-gray-50 mb-1 border-b-1 border-gray-200 dark:border-none  " aria-labelledby="accordion-color-heading-1">
+    <div class="flex justify-between p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+    <div>
+        <i class="fa-solid fa-dna text-sky-600 ml-2.5"></i>
+        <a href="" class="dark:text-gray-200">تقطيع الأنسجة</a>
+    </div>
+
+    <div>
+        <span class="dark:text-gray-200">90 دقيقة</span>
+        <a href="" class="fa-solid fa-eye text-sky-600 mr-2.5"></a>
+    </div>
+    
+    </div>
+
+    <div class="flex justify-between p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+    <div>
+        <i class="fa-solid fa-dna text-sky-600 ml-2.5"></i>
+        <a href="" class="dark:text-gray-200">صبغة الهيماتوكسيلسن</a>
+    </div>
+
+    <div>
+        <span class="dark:text-gray-200">95 دقيقة</span>
+        <a href="" class="fa-solid fa-eye text-sky-600 mr-2.5"></a>
+    </div>
+    
+    </div>
+  
+    <div class="flex justify-between p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+    <div>
+        <i class="fa-solid fa-dna text-sky-600 ml-2.5"></i>
+        <a href="" class="dark:text-gray-200">مسحة عنق الرحم</a>
+    </div>
+
+    <div>
+        <span class="dark:text-gray-200">80 دقيقة</span>
+        <a href="" class="fa-solid fa-eye text-sky-600 mr-2.5"></a>
+    </div>
+    
+    </div>
+    <div class="flex justify-between p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+    <div>
+        <i class="fa-solid fa-dna text-sky-600 ml-2.5"></i>
+        <a href="" class="dark:text-gray-200">دلالات الأورام</a>
+    </div>
+
+    <div>
+        <span class="dark:text-gray-200">65 دقيقة</span>
+        <a href="" class="fa-solid fa-eye text-sky-600 mr-2.5"></a>
+    </div>
+    
+    </div>
+  </div>
+
+
+  <h2 id="accordion-color-heading-5">
+    <button type="button" class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border border-b-0 border-gray-300 mb-1 rounded-t-xl   dark:border-gray-700 dark:text-gray-200 bg-gray-200 dark:bg-slate-600   hover:bg-blue-100 dark:hover:bg-gray-800 gap-3" data-accordion-target="#accordion-color-body-5" aria-expanded="true" aria-controls="accordion-color-body-5">
+      <span>علم المناعة والأمصال الطبية</span>
+      <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
+      </svg>
+    </button>
+  </h2>
+  <div id="accordion-color-body-5" class="hidden bg-gray-50 mb-1 border-b-1 border-gray-200 dark:border-none  " aria-labelledby="accordion-color-heading-1">
+    <div class="flex justify-between p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+    <div>
+        <i class="fa-solid fa-shield-virus text-sky-600 ml-2.5"></i>
+        <a href="" class="dark:text-gray-200">اختبارات ELISA</a>
+    </div>
+
+    <div>
+        <span class="dark:text-gray-200">1:20 دقيقة</span>
+        <a href="" class="fa-solid fa-eye text-sky-600 mr-2.5"></a>
+    </div>
+    
+    </div>
+    <div class="flex justify-between p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+    <div>
+        <i class="fa-solid fa-shield-virus text-sky-600 ml-2.5"></i>
+        <a href="" class="dark:text-gray-200">الأجسام المضادة</a>
+    </div>
+
+    <div>
+        <span class="dark:text-gray-200">60 دقيقة</span>
+        <a href="" class="fa-solid fa-eye text-sky-600 mr-2.5"></a>
+    </div>
+    
+    </div>
+  
+    <div class="flex justify-between p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+    <div>
+        <i class="fa-solid fa-shield-virus text-sky-600 ml-2.5"></i>
+        <a href="" class="dark:text-gray-200">فحوصات الحساسية</a>
+    </div>
+
+    <div>
+        <span class="dark:text-gray-200">20 دقيقة</span>
+        <a href="" class="fa-solid fa-eye text-sky-600 mr-2.5"></a>
+    </div>
+    
+    </div>
+    <div class="flex justify-between p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+    <div>
+        <i class="fa-solid fa-shield-virus text-sky-600 ml-2.5"></i>
+        <a href="" class="dark:text-gray-200">المناعة الذاتية</a>
+    </div>
+
+    <div>
+        <span class="dark:text-gray-200">30 دقيقة</span>
+        <a href="" class="fa-solid fa-eye text-sky-600 mr-2.5"></a>
+    </div>
+    
+    </div>
+  </div>
+  </div>
+ 
+ 
+  
+ 
+  
+  
+  
+ 
+ 
+  
+  
+  
+ 
+</div>
+
+        </div>
+ 
+
+
+
+        
+            <div id="Instructor" class="mt-5">
+                <h2 class="text-2xl font-bold">د.حسام اليوسف</h2>
+                <div class="flex items-center gap-4 my-7">
+                    <img class="w-[150px] rounded-full h-[150px] object-cover" src="assets/images/طبيب1.jpg" alt="">
+                    <span>
+                        <i class="fas fa-user-md mr-2.5 text-sky-600"></i>
+                        250 طالب
+                    </span>
+                    <span>
+                        <i class="fa-solid fa-eye mr-2.5 text-sky-600"></i>
+                        20 درس تم نشره
+                    </span>
+                </div>
+                <p>أخصائي تشخيص مناعي، استشاري علم الدم، و خبير جودة مخابر</p>
+                <div class="social flex gap-5 my-5">
+                    <a href="" class="fab fa-facebook text-red-800"></a>
+                    <a href="" class="fab fa-linkedin text-red-800"></a>
+                    <a href="" class="fab fa-x-twitter text-red-800"></a>
+                    <a href="" class="fab fa-whatsapp text-red-800"></a>
+                    <a href="" class="fab fa-youtube text-red-800"></a>
+                </div>
+            </div>
+        </div>
+
+                </div>
+
+
+
+                <div class="course-details md:relative top-[-215px] m-3 md:m-0 md:w-[25%] shrink-0 bg-gray-100  rounded-[10px] h-full">
+                  
+                  <div class="">
+                    <img class="w-full rounded-t-[10px]"  src="assets/images/تحاليل طبية.jpg"  alt="">
+                </div>
+                  
+                  <div class="p-[20px]">
+                    
+                    <p class="text-2xl font-bold text-center ">250$</p>
+                    <button class="btn w-full">اشترك</button>
+                    <div class="mt-5 flex flex-col gap-3">
+                        <span>
+                            <i class="fas fa-clock"></i>
+                            السبت والإثنين من 4:00م حتى 7:00م
+                        </span>
+                        <span>
+                            <i class="fas fa-calendar-alt"></i>
+                                4  أسابيع مكثفة (30 ساعة تدريبية)                                    </span>
+                        <span>
+                            <i class="fas fa-user-check"></i>
+                                    حضوري (تطبيق عملي مباشر داخل المختبر)
+                        </span>
+                        <span>
+                            <i class="fas fa-users"></i>
+                            أكثر من 2000 طالب التحق بالكورس
+                        </span>
+                        <span>
+                            <i class="fas fa-award"></i>
+                            شهادة إتمام معتمدة من إدارة المختبر
+                        </span>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+
+            <div class="reviws mb-5 md:w-[80%]">
+                <h2 class="text-3xl font-bold mt-5">التعليقات</h2>
+                <div class="flex items-center gap-5">
+                    <h3 class="text-3xl font-bold my-5 text-sky-600">250</h3>
+                    <div class="stars flex gap-3 text-yellow-500">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+
+                    </div>
+                </div>
+
+                <div class="progress py-4 bg-gray-100 rounded[10px] px-5">
+                    <div class="flex gap-4 items-center mb-2">
+                       <span class="text-xl font-bold">1</span> 
+                       <span class="text-xl font-bold">0%</span>
+                       
+  <div class="w-full bg-gray-200 rounded-full dark:bg-gray-700">
+    <div class="bg-red-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full" style="width: 0%"> 0%</div>
+  </div>
+
+                    </div>
+                    <div class="flex gap-4 items-center mb-2">
+                       <span class="text-xl font-bold">2</span> 
+                       <span class="text-xl font-bold">10%</span>
+                       
+  <div class="w-full bg-gray-200 rounded-full dark:bg-gray-700">
+    <div class="bg-red-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full" style="width: 10%"> 10%</div>
+  </div>
+
+                    </div>
+                    <div class="flex gap-4 items-center mb-2">
+                       <span class="text-xl font-bold">3</span> 
+                       <span class="text-xl font-bold">20%</span>
+                       
+  <div class="w-full bg-gray-200 rounded-full dark:bg-gray-700">
+    <div class="bg-red-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full" style="width: 20%"> 20%</div>
+  </div>
+
+                    </div>
+                    <div class="flex gap-4 items-center mb-2">
+                       <span class="text-xl font-bold">4</span> 
+                       <span class="text-xl font-bold">30%</span>
+                       
+  <div class="w-full bg-gray-200 rounded-full dark:bg-gray-700">
+    <div class="bg-yellow-500 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full" style="width: 30%"> 30%</div>
+  </div>
+
+                    </div>
+                    <div class="flex gap-4 items-center mb-2">
+                       <span class="text-xl font-bold">5</span> 
+                       <span class="text-xl font-bold">40%</span>
+                       
+  <div class="w-full bg-gray-200 rounded-full dark:bg-gray-700">
+    <div class="bg-green-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full" style="width: 50%"> 50%</div>
+  </div>
+
+                    </div>
+                        
+  
+
+                </div>
+
+            </div>
+
+
+
+          <!-- start related courses -->
+
+<!-- 
+             <div class="related courses max-w-screen-xl mx-auto   p-[20px]">
+
+      <h2 class=" text-3xl font-bold text-sky-700 mb-4 dark:text-white">الكورسات المتعلقة</h2>
+      <div class=" max-w-screen-xl mx-auto p-4 md:p-0 mt-8 courses gap-3 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
+          <div class="course relative dark:bg-sky-800 bg-gray-100 rounded-md overflow-hidden hover:translate-1 transition-all ease-in-out cursor-pointer">
+            <div class="absolute top-[5px] right-[5px] bg-red-800 dark:bg-slate-800 px-2 py-1 rounded-md text-white">التحاليل الطبية الروتينية</div>
+            <div class="course-img w-full h-[200px]">
+              <img src="assets/images/تحليل طبي.jpg" class="w-full h-full object-cover" alt="">
+            </div>
+            <div class="course-info p-2">
+              <h3 class=" my-3  text-xl font-bold text-slate-700 dark:text-gray-200 text-center ">دبلوم التحاليل الطبية الشامل</h3>
+              <P class=" text-slate-700 dark:text-gray-200 text-center">تأهيل متكامل من الصفر يغطي الفحوصات الروتينية، أمراض الدم، والكيمياء الحيوية السريرية.</P>
+              <div class="price flex text-slate-700 dark:text-gray-200 justify-between  mt-8 text-xl">
+                <div>
+                  <span>السعر:</span>
+                  <span class="line-through">250$</span>
+                </div>
+                <span>150$</span>
+              </div>
+                <a href="single-course.html" class="block  text-center   bg-red-800 dark:bg-slate-800 px-5 py-3 rounded-md text-white w-full mt-3">اشترك الآن</a>
+
+            </div>
+          </div>
+          <div class="course relative dark:bg-sky-800 bg-gray-100  rounded-md overflow-hidden hover:translate-1 transition-all ease-in-out cursor-pointer">
+            <div class="absolute top-[5px] right-[5px] bg-red-800 dark:bg-slate-800 px-2 py-1 rounded-md text-white">كيمياء السموم</div>
+            <div class="course-img w-full h-[200px]">
+              <img src="assets/images/مخدرات.jpg" class="w-full h-full object-cover" alt="">
+            </div>
+            <div class="course-info p-2">
+              <h3 class=" my-3  text-xl font-bold text-slate-700 dark:text-gray-200 text-center ">كيمياء السموم والمخدرات </h3>
+              <P class=" text-slate-700 dark:text-gray-200 text-center">دراسة طرق الكشف عن العقاقير، السموم، والمواد الممنوعة في سوائل الجسم بالفحوصات الجنائية والمخبرية.</P>
+              <div class="price flex text-slate-700 dark:text-gray-200 justify-between  mt-8 text-xl">
+                <div>
+                  <span>السعر:</span>
+                  <span class="line-through">350$</span>
+                </div>
+                <span>250$</span>
+              </div>
+                <a href="single-course.html" class="block  text-center   bg-red-800 dark:bg-slate-800 px-5 py-3 rounded-md text-white w-full mt-3">اشترك الآن</a>
+
+            </div>
+          </div>
+          <div class="course relative dark:bg-sky-800 bg-gray-100  rounded-md overflow-hidden hover:translate-1 transition-all ease-in-out cursor-pointer">
+            <div class="absolute top-[5px] right-[5px] bg-red-800 dark:bg-slate-800 px-2 py-1 rounded-md text-white">البيولوجيا الجزيئية</div>
+            <div class="course-img w-full h-[200px]">
+              <img src="assets/images/pcrjpg.jpg" class="w-full h-full object-cover" alt="">
+            </div>
+            <div class="course-info p-2">
+              <h3 class=" my-3  text-xl font-bold text-slate-700 dark:text-gray-200 text-center ">  البيولوجيا الجزيئية والـ PCR</h3>
+              <P class=" text-slate-700 dark:text-gray-200 text-center">تدريب عملي مكثف على استخلاص الحمض النووي، تشغيل أجهزة التضخيم، وقراءة النتائج الوراثية بدقة.</P>
+              <div class="price flex text-slate-700 dark:text-gray-200 justify-between  mt-8 text-xl">
+                <div>
+                  <span>السعر:</span>
+                  <span class="line-through">450$</span>
+                </div>
+                <span>350$</span>
+              </div>
+                <a href="single-course.html" class="block  text-center   bg-red-800 dark:bg-slate-800 px-5 py-3 rounded-md text-white w-full mt-3">اشترك الآن</a>
+
+            </div>
+          </div>
+          <div class="course relative dark:bg-sky-800 bg-gray-100  rounded-md overflow-hidden hover:translate-1 transition-all ease-in-out cursor-pointer">
+            <div class="absolute top-[5px] right-[5px] bg-red-800 dark:bg-slate-800 px-2 py-1 rounded-md text-white">ادارة الجودة والسلامة</div>
+            <div class="course-img w-full h-[200px]">
+              <img src="assets/images/فريق2.jpg" class="w-full h-full object-cover" alt="">
+            </div>
+            <div class="course-info p-2">
+              <h3 class=" my-3  text-xl font-bold text-slate-700 dark:text-gray-200 text-center ">إدارة الجودة والسلامة المخبرية</h3>
+              <P class=" text-slate-700 dark:text-gray-200 text-center">تعلم كيفية تطبيق معايير الأيزو العالمية وضبط الجودة داخل المنشآت والمختبرات الطبية بشكل فعال وقوي.</P>
+              <div class="price flex text-slate-700 dark:text-gray-200 justify-between  mt-8 text-xl">
+                <div>
+                  <span>السعر:</span>
+                  <span class="line-through">50$</span>
+                </div>
+                <span>100$</span>
+              </div>
+                <a href="single-course.html" class="block  text-center   bg-red-800 dark:bg-slate-800 px-5 py-3 rounded-md text-white w-full mt-3">اشترك الآن</a>
+
+            </div>
+          </div>
+      </div>
+     </div> -->
+
+
+
+
+          <!-- end related courses -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </section>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- end content -->
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- start footer -->
+      <footer class=" relative  bg-slate-400  border-t-sky-500 dark:border-t-blue-300 border-[3px]" style="background-image: url('./assets/images/images/footer-bg.png'); background-position:center; background-repeat:no-repeat; background-size:contain;">
+        <div class="absolute z-10 w-full h-full bg-[#697281cd] "></div>
+        <div class="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 pt-[35px] relative z-20 gap-5 md:gap-1">
+            <div class="f-section mr-3">
+              <h3 class="text-2xl font-bold text-gray-800 mb-5">اكاديمية المختبر</h3>
+              <p class="text-white leading-9 w-[90%]">مختبر طبي معتمد يسعى لتقديم خدمات تشخيصية مخبرية بأعلى معايير الدقة والجودة العالمية، من خلال كادر طبي متخصص وأحدث التقنيات الرقمية لرعاية صحتك وصحة عائلتك.</p>
+            </div>
+
+
+              <div class="f2-section mr-3">
+              <h3 class="text-2xl font-bold text-gray-800 mb-5">روابط سريعة</h3>
+                <ul class="flex flex-col gap-2">
+                  <li><a class="text-white" href="">الرئيسية</a></li>
+                  <li><a class="text-white" href="">باقات الفحص الشامل</a></li>
+                  <li><a class="text-white" href="">شركاء التأمين</a></li>
+                  <li><a class="text-white" href="">قائمة التحاليل والأسعار</a></li>
+                  <li><a class="text-white" href="">المدونة الطبية</a></li>
+                </ul>
+              </div>
+              <div class="f3-section mr-3">
+              <h3 class="text-2xl font-bold text-gray-800 mb-5">معلومات التواصل</h3>
+                <ul class="flex flex-col gap-2">
+                  <li><a class="text-white" href="">العنوان:حماة/طيبة الامام/الشارع الرئيسي</a></li>
+                  <li><a class="text-white" href="">للحجز والاستفسار واتساب:098765438</a></li>
+                  <li><a class="text-white" href="">akadem22@gmail.com</a></li>
+                  <li><a class="text-white" href="">الدعم الفني والشكاوي</a></li>
+                  <li><a class="text-white" href="">ساعات العمل:يوميا عدا الجمعة</a></li>
+                </ul>
+              </div>
+
+              <div class="f4-section">
+            <h3 class="text-2xl font-bold text-gray-800 mb-5 mr-3">النشرة البريدية</h3>
+                <form action="" class="flex flex-col gap-3">
+                  <input type="text" placeholder="البريد الالكتروني" class="border h-9 border-gray-100 px-[12px] py[4px] rounded-[5px] placeholder:text-gray-100 ">
+                  <button class="btn text-[15px]">انقر للاشتراك</button>
+                </form>
+              </div>
+
+              <div class="max-w-screen-xl mx-auto w-full flex flex-wrap items-center justify-between border-t border-gray-600 py-[25px] px-3 md:px-0 gap-4 col-span-full mt-4 col md:flex-row">
+                <p class="text-white">جميع الحقوق محفوظة لأكاديمية المختبر</p>
+                <p class="text-white">إخلاء المسؤولية الطبية</p>
+              </div>
+
+
+
+
+
+
+
+
+
+
+        </div>
+      </footer>
+        <!-- end footer -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.js"></script>
+<script src="assets/js/script.js"></script>
+
+
+
+
+</body>
+</html>
